@@ -1,0 +1,53 @@
+.nav_container{
+   height: 78px; 
+}
+
+.laptop_content_container{
+    height: 100%;
+    width: 60%;
+    display: block;
+}
+
+.laptop_content_container ul{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.laptop_content_container ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-right: 10px;
+    font-family: FighterFish-3zG53;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.lines_container{
+    display: none; 
+}
+
+.content_container{
+    display: none; 
+}
+
+.iconLines_container{
+    width: auto;
+    height: 35%;
+}
+
+.icon_container{
+    width: 20px;
+    height: 40px;
+}
+
+.logo_container{
+    width: 11%;
+}
+

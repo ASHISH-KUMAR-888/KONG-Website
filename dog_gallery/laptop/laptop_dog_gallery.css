@@ -1,0 +1,51 @@
+.gallery_one{
+    height: 300px;
+    width: 100%;
+}
+
+.gallery_two{
+    height: 440px;
+    width: 100%;
+}
+
+.gallery_three{
+    height: 540px;
+    width: 100%;
+}
+
+.gallery_four{
+    height: 540px;
+    width: 100%;
+}
+
+.gallery_five{
+    height: 300px;
+    width: 100%;
+}
+
+.gallery_six{
+    height: 440px;
+    width: 100%;
+}
+
+.left_gallery{
+    padding-right: 5px;
+}
+
+.right_gallery{
+    padding-left: 5px;
+}
+
+
+.left_gallery img{
+    margin-bottom: 5px;
+}
+
+.right_gallery img{
+    margin-bottom: 5px;
+}
+
+.dog_gallery_container{
+    width: 50vw;
+    margin: 0 auto;
+}

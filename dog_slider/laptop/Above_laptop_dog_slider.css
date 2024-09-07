@@ -1,0 +1,14 @@
+.dog_slider_container{
+    padding: 60px 50px;
+}
+
+.dog_slider_container > h2{
+    margin-bottom: 70px;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+.dog_slider_images img{
+    width: 50%;
+    margin-bottom: 50px;
+}

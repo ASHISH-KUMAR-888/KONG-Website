@@ -1,0 +1,25 @@
+.animal_footer_container{
+    min-height: 50px;
+    width: 100vw;
+    background: #fbfbfb;
+    font-family: "DM Serif Text";
+    padding: 20px 30px;
+}
+
+.animal_footer_container p{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 23px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.animal_footer_image{
+    height: 40px;
+    width: 100%;
+}
+
+.animal_footer_image img{
+    height: 100%;
+    width: 100%;
+}

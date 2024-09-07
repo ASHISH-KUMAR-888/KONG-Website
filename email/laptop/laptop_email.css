@@ -1,0 +1,51 @@
+.eamil_title h2{
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.email_title_one{
+    margin-bottom: 20px;
+}
+
+.email{
+    margin-bottom: 20px;
+}
+
+.email input{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.email p{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+.email_container > p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.email_anchor{
+    height: 65px;
+    margin-bottom: 30px;
+}
+
+.email_anchor a{
+    height: 60px;
+    width: 300px;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+.email_links{
+    min-height: 130px;
+}
+
+.email_links a{
+    font-size: 18px;
+    margin-bottom: 15px;
+}

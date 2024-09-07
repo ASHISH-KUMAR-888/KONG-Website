@@ -1,0 +1,96 @@
+.food_container{
+    min-height: 550px;
+    width: 100vw;
+    padding: 0 20px;
+}
+
+.food_container > h2{
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    font-family: "DM Serif Text";
+}
+
+.food_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food{
+    height: 300px;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.food_margin{
+    margin-right: 25px;
+}
+
+.food_image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.food_image img{
+    width: 100%;  
+}
+
+.food_image_box h2{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-family: "DM Serif Text";
+}
+
+.food_image_box p{
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.recipe_button{
+    width: 130px;
+    min-height: 10px;
+    font-family: "DM Serif Text";
+}
+
+.recipe_button p{
+    position: relative;
+}
+
+
+.recipe_button p img{
+    height: 22px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.food_anchor{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food_anchor a{
+    font-family: "DM Serif Text";
+    border: 1px solid black;
+    color: black;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

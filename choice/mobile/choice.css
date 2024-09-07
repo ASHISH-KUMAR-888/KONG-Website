@@ -1,0 +1,72 @@
+.choice_container{
+    min-height: 50px;
+    width: 100vw;
+    margin-bottom: 38px;  
+    background: #fbfbfb;
+}
+
+.choice_container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "DM Serif Text";
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.pet_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbfbfb;
+}
+
+
+.pet_container div{
+    width: 30vw;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.pet_container div img{
+    margin-right: 10px;
+}
+
+.pet_container div p{
+    display: inline-block;
+    font-weight: 900;
+}
+
+.choice_dog{
+    margin-right: 15px;
+    transition: .8s ease;
+}
+
+.active_dog{
+    background: var(--crimson);
+    color: white;
+}
+
+.active_dog_bright{
+    filter: brightness(1000%);
+}
+
+.choice_cat{
+    background: white;
+    transition: .8s ease;
+}
+
+.choice_dog img{
+    height: 30%;
+    width: 30%;
+}
+
+.choice_cat img{
+    height: 18%;
+    width: 25%;
+}
+
+
+

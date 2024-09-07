@@ -1,0 +1,32 @@
+.shelter_title_container h2{
+    letter-spacing: 3px;
+}
+
+.shelter_title_container p{
+    letter-spacing: 2.5px;
+    line-height: 29px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.shelter_anchor{
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.shelter_anchor a{
+    height: 60px;
+    width: 300px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.shelter_anchor_one{
+    margin-bottom: 0;
+}
+

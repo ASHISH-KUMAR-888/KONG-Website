@@ -1,0 +1,8 @@
+.pet_container div p{
+    font-size: 22px;
+}
+
+.pet_container div{
+    width: 20vw;
+    height: 140px;
+}

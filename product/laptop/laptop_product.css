@@ -1,0 +1,25 @@
+.product_anchor_container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_anchor_container a{
+    height: 60px;
+    width: 300px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-right: 25px;   
+}
+
+.product_anchor_one{
+    margin-bottom: 0;
+}
+
+ .product_main{
+    height: 30%;
+    width: 30%;
+    margin-right: 0px;
+}

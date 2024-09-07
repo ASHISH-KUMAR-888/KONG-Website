@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body{
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.eye_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader p{
+    margin-top: 20px;
+    font-family: "DM Serif Text";
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.bg_image{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: lightpink;
+  animation: bg_image 8s ease infinite;
+}
+
+@keyframes bg_image{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.eye_container{
+  position: absolute;
+  top: 0px;
+  min-height: 100px;
+  width: 100%; 
+  
+}
+
+.eye_container img{
+  height: 100%;
+  width: 100%;
+  filter: contrast(300%); 
+}
+
+.main{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%; 
+  animation: animate_main 5s linear infinite;
+}
+
+@keyframes animate_main{
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+
+.main img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.loader{
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.six{
+  border: 8px solid goldenrod; 
+  border-top: 8px solid red;
+  background: black;
+   border-radius: 50%;
+  margin: 10px;
+  animation: animate6 5s linear infinite;
+}
+
+
+
+@keyframes animate{
+  0%{
+    transform: rotate(0);
+    filter: hue-roate(0);
+  }
+  
+  100%{
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+  
+}
+
+
+.five{
+
+  border: 8px solid hotpink; 
+  border-bottom: 8px solid pink;
+  background: black;
+   border-radius: 50%;
+  margin: 10px;
+  animation: animate5 5s linear infinite;
+}
+
+@keyframes animate5{
+  0%{
+    transform: rotate(360deg);
+    filter: hue-roate(0);
+  }
+  
+  100%{
+    transform: rotate(0);
+    filter: hue-rotate(360deg);
+  }
+  
+}
+
+
+.four{
+  border: 8px solid lightblue;
+  border-right: 8px solid blueviolet;
+  background: black;
+  border-radius: 50%;
+  margin: 10px;
+  animation: animate4 5s linear infinite;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: rotate(360deg);
+    filter: hue-roate(0);
+  }
+
+  100%{
+    transform: rotate(0);
+    filter: hue-rotate(360deg);
+  }
+
+}
+
+
+
+.three{
+  border: 8px solid palegoldenrod;
+  border-left: 8px solid yellow;
+  background: black;
+  border-radius: 50%;
+  margin: 10px;
+  animation: animate3 5s linear infinite;
+}
+
+@keyframes animate3{
+  0% {
+    transform: rotate(360deg);
+    filter: hue-roate(0);
+  }
+
+  100%{
+    transform: rotate(0);
+    filter: hue-rotate(360deg);
+  }
+
+}
+
+
+.two {
+  border: 8px solid greenyellow;
+  border-top: 8px solid salmon;
+  background: black;
+  border-radius: 50%;
+  margin: 10px;
+  animation: animate2 5s linear infinite;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+    filter: hue-roate(0);
+  }
+
+  100% {
+    transform: rotate(0);
+    filter: hue-rotate(360deg);
+  }
+
+}
+
+
+.one{
+  border: 8px solid cyan;
+  border-bottom: 8px solid lightcoral;
+  background: black;
+  border-radius: 50%;
+  margin: 10px;
+  animation: animate1 5s linear infinite;
+}
+
+@keyframes animate1{
+  0% {
+    transform: rotate(360deg);
+    filter: hue-roate(0);
+  }
+
+  100% {
+    transform: rotate(0);
+    filter: hue-rotate(360deg);
+  }
+
+}
+
+
+
+@media screen and (min-width: 768px){
+ 
+.eye_container{
+  width: 50%; 
+}  
+    
+.loader p{
+    margin-top: 60px;
+    font-family: "DM Serif Text";
+    letter-spacing: 5px;
+    font-size: 28px;
+    color: white;
+}
+
+.six{
+  border: 11px solid goldenrod; 
+  border-top: 11px solid red;
+}
+
+.five{
+
+  border: 11px solid hotpink; 
+  border-bottom: 11px solid pink;
+}
+
+
+.four{
+  border: 11px solid lightblue;
+  border-right: 11px solid blueviolet;
+}
+
+
+.three{
+  border: 11px solid palegoldenrod;
+  border-left: 11px solid yellow;
+}
+
+
+.two {
+  border: 11px solid greenyellow;
+  border-top: 11px solid salmon;
+}
+
+
+
+.one{
+  border: 11px solid cyan;
+  border-bottom: 11px solid lightcoral;
+}
+        
+    
+}
+
+
+
+
+@media screen and (min-width: 1500px){
+    
+    
+ .loader p{
+    margin-top: 100px;
+    font-family: "DM Serif Text";
+    letter-spacing: 6px;
+    font-size: 40px;
+    color: darkred;
+}
+
+.six{
+  border: 14px solid goldenrod; 
+  border-top: 14px solid red;
+}
+
+.five{
+
+  border: 14px solid hotpink; 
+  border-bottom: 14px solid pink;
+}
+
+
+.four{
+  border: 14px solid lightblue;
+  border-right: 14px solid blueviolet;
+}
+
+
+.three{
+  border: 14px solid palegoldenrod;
+  border-left: 14px solid yellow;
+}
+
+
+.two {
+  border: 14px solid greenyellow;
+  border-top: 14px solid salmon;
+}
+
+
+
+.one{
+  border: 14px solid cyan;
+  border-bottom: 14px solid lightcoral;
+}
+   
+    
+    
+}
+
+
+

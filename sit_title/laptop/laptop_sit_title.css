@@ -1,0 +1,15 @@
+.sit_title{
+    padding: 10px 30px 15px 100px;
+}
+
+.sit_title h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.sit_title a{
+    letter-spacing: 2px;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+}

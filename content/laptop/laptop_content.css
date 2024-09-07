@@ -1,0 +1,51 @@
+.main_image_container{
+    height: 100vh;
+}
+
+.dog_container{
+    height: 100%;
+}
+
+.dog_title{
+    padding: 80px 0 0 48px;
+}
+
+.dog_btn{
+    display: inline-block;
+}
+
+.because{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.because::after{
+    width: 440px;
+    height: 3px;
+}
+
+.dog_need{
+    font-size: 70px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    margin-bottom: 70px;
+}
+
+.dog_need_margin{
+    margin: 0;
+}
+
+
+.para_1976 h2{
+    font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.para_1976 p{
+   line-height: 28px;
+   padding: 0 70px;
+}
+

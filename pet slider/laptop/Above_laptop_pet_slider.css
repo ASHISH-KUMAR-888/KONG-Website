@@ -1,0 +1,13 @@
+.pet_slider_container{
+    margin-top: 80px;
+}
+
+.pet_slider{
+    width: 11vw;
+    height: 180px;
+    padding-bottom: 0;
+}
+
+.pet_slider p{
+   font-size: 20px;
+}

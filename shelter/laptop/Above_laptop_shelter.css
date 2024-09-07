@@ -1,0 +1,15 @@
+.shelter_title_container h2{
+    letter-spacing: 4px;
+}
+
+.shelter_title_container p{
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.shelter_anchor a{
+    letter-spacing: 3px;
+    font-size: 19px;
+    margin-right: 30px;
+}

@@ -1,0 +1,29 @@
+.sit_title{
+    height: 300px;
+    width: 100vw;
+    background: #fbfbfb;
+    padding: 10px 24px;
+    margin-bottom: 40px;
+}
+
+.sit_title h2{
+    font-family: "DM Serif Text";
+    font-size: 38px;
+    margin-bottom: 35px;
+}
+
+.sit_title a{
+    font-family: "DM Serif Text";
+    border: 1px solid black;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.nav_container{
+   height: 130px; 
+}
+
+.laptop_content_container{
+    width: 70%;
+}
+
+.laptop_content_container ul a{
+   font-size: 24px;
+   letter-spacing: 4px;
+}
+
+.iconLines_container{
+    width: 40px ! important;
+    height: 52%;
+}
+
+.icon_container{
+    width: 23px;
+}
+
+.logo_container{
+    width: 12%;
+}
+
+.iconLines_container{
+    width: 120px;
+}

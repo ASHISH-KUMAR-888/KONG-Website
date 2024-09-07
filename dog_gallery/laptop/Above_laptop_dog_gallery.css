@@ -1,0 +1,48 @@
+.gallery_one{
+    height: 400px;
+    width: 100%;
+}
+
+.gallery_two{
+    height: 560px;
+    width: 100%;
+}
+
+.gallery_three{
+    height: 690px;
+    width: 100%;
+}
+
+.gallery_four{
+    height: 690px;
+    width: 100%;
+}
+
+.gallery_five{
+    height: 400px;
+    width: 100%;
+}
+
+.gallery_six{
+    height: 560px;
+    width: 100%;
+}
+
+.left_gallery{
+    padding-right: 10px;
+}
+
+.right_gallery{
+    padding-left: 10px;
+}
+
+
+.left_gallery img{
+    margin-bottom: 15px;
+}
+
+.right_gallery img{
+    margin-bottom: 15px;
+}
+
+

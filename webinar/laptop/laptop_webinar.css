@@ -1,0 +1,40 @@
+.webinar_container{
+    padding: 100px 30px 10px;
+    width: 50vw;
+    margin: 40px auto 30px;
+}
+
+.webinar_container > h2{
+    font-size: 30px;
+}
+
+.webinar_main{
+    margin-bottom: 68px;
+}
+
+.webinar_photo{
+    margin-bottom: 28px;
+}
+
+.webinar_title{
+    padding: 0 35px;
+}
+
+.webinar_title h2{
+    margin-bottom: 15px;
+}
+
+.webinar_title h3{
+    margin-bottom: 30px;
+}
+
+.webinar_title p{
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+.webinar_photo{
+    height: 700px; 
+}

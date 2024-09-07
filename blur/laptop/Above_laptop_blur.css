@@ -1,0 +1,34 @@
+.blur_title_container{
+    padding: 80px 15px; 
+}
+
+.blur_title_container > h2{
+    letter-spacing: 3.5px;
+    margin-bottom: 55px;
+    font-size: 40px;
+}
+
+.blur_image{
+    height: 800px;
+    margin-bottom: 80px;
+}
+
+.blur_center{
+    padding: 300px 80px;
+}
+
+.blur_center h2{
+    letter-spacing: 3.5px;
+    margin-bottom: 20px;
+}
+
+.blur_center p{
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.blur_dog{
+    filter: brightness(.8) blur(12px); 
+}
+
+

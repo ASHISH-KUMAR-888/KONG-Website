@@ -1,0 +1,109 @@
+.food_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food_container > h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.food{
+    height: 48.5vw;
+}
+
+@media screen and (min-width: 800px){
+ 
+.food{
+    height: 47.5vw;
+}
+      
+}
+
+
+@media screen and (min-width: 900px){
+ 
+.food{
+    height: 45.5vw;
+}
+    
+    
+}
+
+
+@media screen and (min-width: 1000px){
+ 
+.food{
+    height: 43.5vw;
+}
+    
+    
+}
+
+
+
+@media screen and (min-width: 1100px){
+ 
+.food{
+    height: 41.5vw;
+}
+    
+    
+}
+
+
+
+@media screen and (min-width: 1200px){
+ 
+.food{
+    height: 41vw;
+}
+    
+    
+}
+
+
+@media screen and (min-width: 1300px){
+ 
+.food{
+    height: 40vw;
+}
+    
+    
+}
+
+
+
+@media screen and (min-width: 1400px){
+ 
+.food{
+    height: 40vw;
+}
+    
+    
+}
+
+
+
+
+.food_image_box h2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.food_image_box p{
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+
+.food_anchor a{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+}

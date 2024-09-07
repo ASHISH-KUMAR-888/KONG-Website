@@ -1,0 +1,23 @@
+.pet_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet_slider_container{
+    margin-top: 70px;
+}
+
+.pet_slider{
+    width: 10vw;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.pet_slider p{
+    font-size: 17px;
+}
+
+.pet_slider img{
+    margin-bottom: 15px;
+}
